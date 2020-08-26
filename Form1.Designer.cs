@@ -23,13 +23,361 @@
         /// 這個方法的內容。
         /// </summary>
         private void InitializeComponent() {
-            this.components = new System.ComponentModel.Container();
+            this.btnShow = new System.Windows.Forms.Label();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btnMinus = new System.Windows.Forms.Button();
+            this.btnMultiply = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.bnt7 = new System.Windows.Forms.Button();
+            this.btnDivide = new System.Windows.Forms.Button();
+            this.btnEqual = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btnDot = new System.Windows.Forms.Button();
+            this.btnPlus = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnShow
+            // 
+            this.btnShow.BackColor = System.Drawing.Color.White;
+            this.btnShow.Font = new System.Drawing.Font("新細明體", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnShow.Location = new System.Drawing.Point(0, 2);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(408, 120);
+            this.btnShow.TabIndex = 0;
+            this.btnShow.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // btn4
+            // 
+            this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn4.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn4.FlatAppearance.BorderSize = 2;
+            this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn4.Location = new System.Drawing.Point(0, 284);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(111, 114);
+            this.btn4.TabIndex = 1;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = false;
+            // 
+            // btn5
+            // 
+            this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn5.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn5.FlatAppearance.BorderSize = 2;
+            this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn5.Location = new System.Drawing.Point(99, 284);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(111, 114);
+            this.btn5.TabIndex = 2;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = false;
+            // 
+            // btn6
+            // 
+            this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn6.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn6.FlatAppearance.BorderSize = 2;
+            this.btn6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn6.Location = new System.Drawing.Point(198, 284);
+            this.btn6.Name = "btn6";
+            this.btn6.Size = new System.Drawing.Size(111, 114);
+            this.btn6.TabIndex = 3;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = false;
+            // 
+            // btnMinus
+            // 
+            this.btnMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnMinus.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnMinus.FlatAppearance.BorderSize = 2;
+            this.btnMinus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinus.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMinus.Location = new System.Drawing.Point(297, 284);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.Size = new System.Drawing.Size(111, 114);
+            this.btnMinus.TabIndex = 4;
+            this.btnMinus.Text = "-";
+            this.btnMinus.UseVisualStyleBackColor = false;
+            // 
+            // btnMultiply
+            // 
+            this.btnMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnMultiply.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnMultiply.FlatAppearance.BorderSize = 2;
+            this.btnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMultiply.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMultiply.Location = new System.Drawing.Point(297, 392);
+            this.btnMultiply.Name = "btnMultiply";
+            this.btnMultiply.Size = new System.Drawing.Size(111, 114);
+            this.btnMultiply.TabIndex = 8;
+            this.btnMultiply.Text = "*";
+            this.btnMultiply.UseVisualStyleBackColor = false;
+            // 
+            // btn9
+            // 
+            this.btn9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn9.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn9.FlatAppearance.BorderSize = 2;
+            this.btn9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn9.Location = new System.Drawing.Point(198, 392);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(111, 114);
+            this.btn9.TabIndex = 7;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = false;
+            // 
+            // btn8
+            // 
+            this.btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn8.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn8.FlatAppearance.BorderSize = 2;
+            this.btn8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn8.Location = new System.Drawing.Point(99, 392);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(111, 114);
+            this.btn8.TabIndex = 6;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = false;
+            // 
+            // bnt7
+            // 
+            this.bnt7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bnt7.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.bnt7.FlatAppearance.BorderSize = 2;
+            this.bnt7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.bnt7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bnt7.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.bnt7.Location = new System.Drawing.Point(0, 392);
+            this.bnt7.Name = "bnt7";
+            this.bnt7.Size = new System.Drawing.Size(111, 114);
+            this.bnt7.TabIndex = 5;
+            this.bnt7.Text = "7";
+            this.bnt7.UseVisualStyleBackColor = false;
+            // 
+            // btnDivide
+            // 
+            this.btnDivide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDivide.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnDivide.FlatAppearance.BorderSize = 2;
+            this.btnDivide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDivide.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDivide.Location = new System.Drawing.Point(297, 501);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(111, 114);
+            this.btnDivide.TabIndex = 12;
+            this.btnDivide.Text = "/";
+            this.btnDivide.UseVisualStyleBackColor = false;
+            // 
+            // btnEqual
+            // 
+            this.btnEqual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnEqual.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnEqual.FlatAppearance.BorderSize = 2;
+            this.btnEqual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEqual.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnEqual.Location = new System.Drawing.Point(198, 501);
+            this.btnEqual.Name = "btnEqual";
+            this.btnEqual.Size = new System.Drawing.Size(111, 114);
+            this.btnEqual.TabIndex = 11;
+            this.btnEqual.Text = "=";
+            this.btnEqual.UseVisualStyleBackColor = false;
+            // 
+            // btn0
+            // 
+            this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn0.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn0.FlatAppearance.BorderSize = 2;
+            this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn0.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn0.Location = new System.Drawing.Point(99, 501);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(111, 114);
+            this.btn0.TabIndex = 10;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = false;
+            // 
+            // btnDot
+            // 
+            this.btnDot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDot.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnDot.FlatAppearance.BorderSize = 2;
+            this.btnDot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDot.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDot.Location = new System.Drawing.Point(0, 501);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(111, 114);
+            this.btnDot.TabIndex = 9;
+            this.btnDot.Text = ".";
+            this.btnDot.UseVisualStyleBackColor = false;
+            // 
+            // btnPlus
+            // 
+            this.btnPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnPlus.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnPlus.FlatAppearance.BorderSize = 2;
+            this.btnPlus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlus.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnPlus.Location = new System.Drawing.Point(297, 182);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(111, 114);
+            this.btnPlus.TabIndex = 16;
+            this.btnPlus.Text = "+";
+            this.btnPlus.UseVisualStyleBackColor = false;
+            // 
+            // btn3
+            // 
+            this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn3.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn3.FlatAppearance.BorderSize = 2;
+            this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn3.Location = new System.Drawing.Point(198, 182);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(111, 114);
+            this.btn3.TabIndex = 15;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = false;
+            // 
+            // btn2
+            // 
+            this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn2.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn2.FlatAppearance.BorderSize = 2;
+            this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn2.Location = new System.Drawing.Point(99, 182);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(111, 114);
+            this.btn2.TabIndex = 14;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = false;
+            // 
+            // btn1
+            // 
+            this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn1.FlatAppearance.BorderSize = 2;
+            this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn1.Location = new System.Drawing.Point(0, 182);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(111, 114);
+            this.btn1.TabIndex = 13;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnCancel.FlatAppearance.BorderSize = 2;
+            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnCancel.Location = new System.Drawing.Point(0, 126);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(210, 60);
+            this.btnCancel.TabIndex = 17;
+            this.btnCancel.Text = "C";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            // 
+            // btnDel
+            // 
+            this.btnDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnDel.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnDel.FlatAppearance.BorderSize = 2;
+            this.btnDel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDel.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDel.Location = new System.Drawing.Point(198, 126);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(210, 60);
+            this.btnDel.TabIndex = 18;
+            this.btnDel.Text = "Del";
+            this.btnDel.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(408, 615);
+            this.Controls.Add(this.btnDel);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnPlus);
+            this.Controls.Add(this.btn3);
+            this.Controls.Add(this.btn2);
+            this.Controls.Add(this.btn1);
+            this.Controls.Add(this.btnDivide);
+            this.Controls.Add(this.btnEqual);
+            this.Controls.Add(this.btn0);
+            this.Controls.Add(this.btnDot);
+            this.Controls.Add(this.btnMultiply);
+            this.Controls.Add(this.btn9);
+            this.Controls.Add(this.btn8);
+            this.Controls.Add(this.bnt7);
+            this.Controls.Add(this.btnMinus);
+            this.Controls.Add(this.btn6);
+            this.Controls.Add(this.btn5);
+            this.Controls.Add(this.btn4);
+            this.Controls.Add(this.btnShow);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "Form1";
+            this.Text = "Calculator";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label btnShow;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btnMinus;
+        private System.Windows.Forms.Button btnMultiply;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button bnt7;
+        private System.Windows.Forms.Button btnDivide;
+        private System.Windows.Forms.Button btnEqual;
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btnDot;
+        private System.Windows.Forms.Button btnPlus;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Button btnDel;
     }
 }
 
