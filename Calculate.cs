@@ -22,47 +22,73 @@ namespace Calculator {
             int start = 0;
             for (int i=0; i<str.Length; i++) { // change str into expList
                 if(op.Contains(str[i])) {
+                    if(i != 0 && str[i-1] == ')') {
+                        expList.Add(str[i].ToString());
+                        start = i + 1;
+                        continue;
+                    }
+                    if(str[start] == '(') {
+                        expList.Add("(");
+                        start = i + 1;
+                        continue;
+                    }
+                    
                     expList.Add(str.Substring(start, i-start));
                     expList.Add(str[i].ToString());
                     start = i + 1;
                     
                 }
             }
-            expList.Add(str.Substring(start));
+            if(start < str.Length) expList.Add(str.Substring(start));
+
+            //foreach (string s in expList) {
+              //  MessageBox.Show(s);
+            //}
 
             List<string> postfix = new List<string>();
             Stack<string> S = new Stack<string>();
-            foreach(string s in expList) { // infix to postfix
-                if(!op.Contains(s)) {
-                    postfix.Add(s);
-                }else if(s == ")"){
-                    string y;
-                    do {
-                        y = S.Pop();
-                        if (y != "(") postfix.Add(y);
-                    } while (y != "(");
-                }else {
-                    if(S.Count==0) { // for fear that S is empty
-                        S.Push(s);
-                        continue;
-                    }
-                    if(Convert.ToInt32(priority[s]) > Convert.ToInt32(priority[S.Peek()])) {
-                        S.Push(s);
-                    }else {
+            try {
+                foreach (string s in expList) { // infix to postfix
+                    if (!op.Contains(s)) {
+                        postfix.Add(s);
+                    } else if (s == ")") {
                         string y;
                         do {
                             y = S.Pop();
-                            postfix.Add(y);
-                            if (S.Count == 0) break;
-                        } while (Convert.ToInt32(priority[s]) <= Convert.ToInt32(priority[S.Peek()]));
-                        S.Push(s);
+                            //MessageBox.Show(y);
+                            if (y != "(") postfix.Add(y);
+                        } while (y != "(");
+                    } else {
+                        if (S.Count == 0) { // for fear that S is empty
+                            S.Push(s);
+                            continue;
+                        }
+                        if (S.Peek() == "(") { // the priority of "(" in stack must be the least
+                            S.Push(s);
+                            continue;
+                        }
+                        if (Convert.ToInt32(priority[s]) > Convert.ToInt32(priority[S.Peek()])) {
+                            S.Push(s);
+                        } else {
+                            string y;
+                            do {
+                                y = S.Pop();
+                                postfix.Add(y);
+                                if (S.Count == 0) break;
+                            } while (Convert.ToInt32(priority[s]) <= Convert.ToInt32(priority[S.Peek()]));
+                            S.Push(s);
+                        }
                     }
                 }
+                while (S.Count != 0) { // clear S
+                    string y = S.Pop();
+                    postfix.Add(y);
+                }
+            }catch(Exception e) {
+                MessageBox.Show("Error!! please check expression ");
+                return "";
             }
-            while(S.Count != 0) { // clear S
-                string y = S.Pop();
-                postfix.Add(y);
-            }
+            
  
             return calPostfix(postfix, op);
             
@@ -87,6 +113,10 @@ namespace Calculator {
                             S.Push((float.Parse(S.Pop()) * float.Parse(S.Pop())).ToString());
                             break;
                         case "/":
+                            if(int.Parse(S.Peek()) == 0) {
+                                MessageBox.Show("Error!! divide by zero");
+                                return "";
+                            } 
                             S.Push((1/(float.Parse(S.Pop()) / float.Parse(S.Pop()))).ToString());
                             break;
                     }

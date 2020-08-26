@@ -88,5 +88,13 @@ namespace Calculator {
             if (length == 0) return;
             lblShow.Text = lblShow.Text.Substring(0,length-1);
         }
+
+        private void btnLbracket_Click(object sender, EventArgs e) {
+            lblShow.Text += "(";
+        }
+
+        private void btnRbracket_Click(object sender, EventArgs e) {
+            lblShow.Text += ")";
+        }
     }
 }

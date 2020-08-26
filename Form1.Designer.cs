@@ -42,6 +42,8 @@
             this.btn1 = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
+            this.btnLbracket = new System.Windows.Forms.Button();
+            this.btnRbracket = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblShow
@@ -64,7 +66,7 @@
             this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn4.Location = new System.Drawing.Point(0, 284);
+            this.btn4.Location = new System.Drawing.Point(0, 335);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(111, 114);
             this.btn4.TabIndex = 1;
@@ -80,7 +82,7 @@
             this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn5.Location = new System.Drawing.Point(99, 284);
+            this.btn5.Location = new System.Drawing.Point(99, 335);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(111, 114);
             this.btn5.TabIndex = 2;
@@ -96,7 +98,7 @@
             this.btn6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn6.Location = new System.Drawing.Point(198, 284);
+            this.btn6.Location = new System.Drawing.Point(198, 335);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(111, 114);
             this.btn6.TabIndex = 3;
@@ -112,7 +114,7 @@
             this.btnMinus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinus.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnMinus.Location = new System.Drawing.Point(297, 284);
+            this.btnMinus.Location = new System.Drawing.Point(297, 335);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(111, 114);
             this.btnMinus.TabIndex = 4;
@@ -128,7 +130,7 @@
             this.btnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiply.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnMultiply.Location = new System.Drawing.Point(297, 392);
+            this.btnMultiply.Location = new System.Drawing.Point(297, 443);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(111, 114);
             this.btnMultiply.TabIndex = 8;
@@ -144,7 +146,7 @@
             this.btn9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn9.Location = new System.Drawing.Point(198, 392);
+            this.btn9.Location = new System.Drawing.Point(198, 443);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(111, 114);
             this.btn9.TabIndex = 7;
@@ -160,7 +162,7 @@
             this.btn8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn8.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn8.Location = new System.Drawing.Point(99, 392);
+            this.btn8.Location = new System.Drawing.Point(99, 443);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(111, 114);
             this.btn8.TabIndex = 6;
@@ -176,7 +178,7 @@
             this.bnt7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.bnt7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bnt7.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.bnt7.Location = new System.Drawing.Point(0, 392);
+            this.bnt7.Location = new System.Drawing.Point(0, 443);
             this.bnt7.Name = "bnt7";
             this.bnt7.Size = new System.Drawing.Size(111, 114);
             this.bnt7.TabIndex = 5;
@@ -192,7 +194,7 @@
             this.btnDivide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDivide.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnDivide.Location = new System.Drawing.Point(297, 501);
+            this.btnDivide.Location = new System.Drawing.Point(297, 552);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(111, 114);
             this.btnDivide.TabIndex = 12;
@@ -208,7 +210,7 @@
             this.btnEqual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEqual.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnEqual.Location = new System.Drawing.Point(198, 501);
+            this.btnEqual.Location = new System.Drawing.Point(198, 552);
             this.btnEqual.Name = "btnEqual";
             this.btnEqual.Size = new System.Drawing.Size(111, 114);
             this.btnEqual.TabIndex = 11;
@@ -224,7 +226,7 @@
             this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn0.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn0.Location = new System.Drawing.Point(99, 501);
+            this.btn0.Location = new System.Drawing.Point(99, 552);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(111, 114);
             this.btn0.TabIndex = 10;
@@ -240,7 +242,7 @@
             this.btnDot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDot.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnDot.Location = new System.Drawing.Point(0, 501);
+            this.btnDot.Location = new System.Drawing.Point(0, 552);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(111, 114);
             this.btnDot.TabIndex = 9;
@@ -256,7 +258,7 @@
             this.btnPlus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlus.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnPlus.Location = new System.Drawing.Point(297, 182);
+            this.btnPlus.Location = new System.Drawing.Point(297, 233);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(111, 114);
             this.btnPlus.TabIndex = 16;
@@ -272,7 +274,7 @@
             this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn3.Location = new System.Drawing.Point(198, 182);
+            this.btn3.Location = new System.Drawing.Point(198, 233);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(111, 114);
             this.btn3.TabIndex = 15;
@@ -288,7 +290,7 @@
             this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn2.Location = new System.Drawing.Point(99, 182);
+            this.btn2.Location = new System.Drawing.Point(99, 233);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(111, 114);
             this.btn2.TabIndex = 14;
@@ -304,7 +306,7 @@
             this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn1.Location = new System.Drawing.Point(0, 182);
+            this.btn1.Location = new System.Drawing.Point(0, 233);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(111, 114);
             this.btn1.TabIndex = 13;
@@ -344,11 +346,45 @@
             this.btnDel.UseVisualStyleBackColor = false;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
+            // btnLbracket
+            // 
+            this.btnLbracket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnLbracket.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnLbracket.FlatAppearance.BorderSize = 2;
+            this.btnLbracket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnLbracket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLbracket.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnLbracket.Location = new System.Drawing.Point(0, 179);
+            this.btnLbracket.Name = "btnLbracket";
+            this.btnLbracket.Size = new System.Drawing.Size(210, 60);
+            this.btnLbracket.TabIndex = 19;
+            this.btnLbracket.Text = "(";
+            this.btnLbracket.UseVisualStyleBackColor = false;
+            this.btnLbracket.Click += new System.EventHandler(this.btnLbracket_Click);
+            // 
+            // btnRbracket
+            // 
+            this.btnRbracket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnRbracket.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnRbracket.FlatAppearance.BorderSize = 2;
+            this.btnRbracket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnRbracket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRbracket.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnRbracket.Location = new System.Drawing.Point(198, 179);
+            this.btnRbracket.Name = "btnRbracket";
+            this.btnRbracket.Size = new System.Drawing.Size(210, 60);
+            this.btnRbracket.TabIndex = 20;
+            this.btnRbracket.Text = ")";
+            this.btnRbracket.UseVisualStyleBackColor = false;
+            this.btnRbracket.Click += new System.EventHandler(this.btnRbracket_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 615);
+            this.ClientSize = new System.Drawing.Size(408, 665);
+            this.Controls.Add(this.btnRbracket);
+            this.Controls.Add(this.btnLbracket);
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnPlus);
@@ -398,6 +434,8 @@
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.Button btnLbracket;
+        private System.Windows.Forms.Button btnRbracket;
     }
 }
 
