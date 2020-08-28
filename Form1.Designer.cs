@@ -60,12 +60,13 @@
             // 
             // btn4
             // 
-            this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn4.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn4.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn4.FlatAppearance.BorderSize = 2;
-            this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn4.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn4.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn4.Location = new System.Drawing.Point(0, 335);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(111, 114);
@@ -76,12 +77,13 @@
             // 
             // btn5
             // 
-            this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn5.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn5.FlatAppearance.BorderSize = 2;
-            this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn5.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn5.Location = new System.Drawing.Point(99, 335);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(111, 114);
@@ -92,12 +94,13 @@
             // 
             // btn6
             // 
-            this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn6.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn6.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn6.FlatAppearance.BorderSize = 2;
-            this.btn6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn6.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn6.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn6.Location = new System.Drawing.Point(198, 335);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(111, 114);
@@ -108,12 +111,13 @@
             // 
             // btnMinus
             // 
-            this.btnMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnMinus.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnMinus.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnMinus.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnMinus.FlatAppearance.BorderSize = 2;
-            this.btnMinus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnMinus.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinus.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMinus.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnMinus.Location = new System.Drawing.Point(297, 335);
             this.btnMinus.Name = "btnMinus";
             this.btnMinus.Size = new System.Drawing.Size(111, 114);
@@ -124,12 +128,13 @@
             // 
             // btnMultiply
             // 
-            this.btnMultiply.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnMultiply.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnMultiply.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnMultiply.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnMultiply.FlatAppearance.BorderSize = 2;
-            this.btnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnMultiply.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiply.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMultiply.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnMultiply.Location = new System.Drawing.Point(297, 443);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(111, 114);
@@ -140,12 +145,13 @@
             // 
             // btn9
             // 
-            this.btn9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn9.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn9.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn9.FlatAppearance.BorderSize = 2;
-            this.btn9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn9.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn9.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn9.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn9.Location = new System.Drawing.Point(198, 443);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(111, 114);
@@ -156,12 +162,13 @@
             // 
             // btn8
             // 
-            this.btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn8.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn8.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn8.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn8.FlatAppearance.BorderSize = 2;
-            this.btn8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn8.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn8.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn8.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn8.Location = new System.Drawing.Point(99, 443);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(111, 114);
@@ -172,12 +179,13 @@
             // 
             // bnt7
             // 
-            this.bnt7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bnt7.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.bnt7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.bnt7.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.bnt7.FlatAppearance.BorderSize = 2;
-            this.bnt7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.bnt7.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.bnt7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bnt7.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.bnt7.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bnt7.Location = new System.Drawing.Point(0, 443);
             this.bnt7.Name = "bnt7";
             this.bnt7.Size = new System.Drawing.Size(111, 114);
@@ -188,12 +196,13 @@
             // 
             // btnDivide
             // 
-            this.btnDivide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnDivide.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnDivide.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnDivide.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDivide.FlatAppearance.BorderSize = 2;
-            this.btnDivide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnDivide.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDivide.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDivide.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDivide.Location = new System.Drawing.Point(297, 552);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(111, 114);
@@ -204,12 +213,13 @@
             // 
             // btnEqual
             // 
-            this.btnEqual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnEqual.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnEqual.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnEqual.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEqual.FlatAppearance.BorderSize = 2;
-            this.btnEqual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnEqual.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEqual.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnEqual.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnEqual.Location = new System.Drawing.Point(198, 552);
             this.btnEqual.Name = "btnEqual";
             this.btnEqual.Size = new System.Drawing.Size(111, 114);
@@ -220,12 +230,13 @@
             // 
             // btn0
             // 
-            this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn0.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn0.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn0.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn0.FlatAppearance.BorderSize = 2;
-            this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn0.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn0.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn0.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn0.Location = new System.Drawing.Point(99, 552);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(111, 114);
@@ -236,12 +247,13 @@
             // 
             // btnDot
             // 
-            this.btnDot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnDot.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnDot.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnDot.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDot.FlatAppearance.BorderSize = 2;
-            this.btnDot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnDot.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDot.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDot.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDot.Location = new System.Drawing.Point(0, 552);
             this.btnDot.Name = "btnDot";
             this.btnDot.Size = new System.Drawing.Size(111, 114);
@@ -252,12 +264,13 @@
             // 
             // btnPlus
             // 
-            this.btnPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnPlus.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnPlus.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnPlus.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnPlus.FlatAppearance.BorderSize = 2;
-            this.btnPlus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnPlus.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlus.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnPlus.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnPlus.Location = new System.Drawing.Point(297, 233);
             this.btnPlus.Name = "btnPlus";
             this.btnPlus.Size = new System.Drawing.Size(111, 114);
@@ -268,12 +281,13 @@
             // 
             // btn3
             // 
-            this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn3.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn3.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn3.FlatAppearance.BorderSize = 2;
-            this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn3.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn3.Location = new System.Drawing.Point(198, 233);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(111, 114);
@@ -284,12 +298,13 @@
             // 
             // btn2
             // 
-            this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn2.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn2.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn2.FlatAppearance.BorderSize = 2;
-            this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn2.Location = new System.Drawing.Point(99, 233);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(111, 114);
@@ -300,12 +315,13 @@
             // 
             // btn1
             // 
-            this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btn1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn1.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn1.FlatAppearance.BorderSize = 2;
-            this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btn1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1.Font = new System.Drawing.Font("新細明體", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn1.Location = new System.Drawing.Point(0, 233);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(111, 114);
@@ -316,12 +332,13 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnCancel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnCancel.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCancel.FlatAppearance.BorderSize = 2;
-            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnCancel.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnCancel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCancel.Location = new System.Drawing.Point(0, 126);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(210, 60);
@@ -332,12 +349,13 @@
             // 
             // btnDel
             // 
-            this.btnDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnDel.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnDel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnDel.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDel.FlatAppearance.BorderSize = 2;
-            this.btnDel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnDel.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDel.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDel.Location = new System.Drawing.Point(198, 126);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(210, 60);
@@ -348,12 +366,13 @@
             // 
             // btnLbracket
             // 
-            this.btnLbracket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnLbracket.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnLbracket.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnLbracket.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnLbracket.FlatAppearance.BorderSize = 2;
-            this.btnLbracket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnLbracket.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnLbracket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLbracket.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnLbracket.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnLbracket.Location = new System.Drawing.Point(0, 179);
             this.btnLbracket.Name = "btnLbracket";
             this.btnLbracket.Size = new System.Drawing.Size(210, 60);
@@ -364,12 +383,13 @@
             // 
             // btnRbracket
             // 
-            this.btnRbracket.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnRbracket.FlatAppearance.BorderColor = System.Drawing.Color.DimGray;
+            this.btnRbracket.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnRbracket.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnRbracket.FlatAppearance.BorderSize = 2;
-            this.btnRbracket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.btnRbracket.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnRbracket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRbracket.Font = new System.Drawing.Font("新細明體", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnRbracket.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnRbracket.Location = new System.Drawing.Point(198, 179);
             this.btnRbracket.Name = "btnRbracket";
             this.btnRbracket.Size = new System.Drawing.Size(210, 60);
@@ -408,6 +428,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.Opacity = 0.85D;
+            this.ShowIcon = false;
             this.Text = "Calculator";
             this.ResumeLayout(false);
 
