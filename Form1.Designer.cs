@@ -48,8 +48,7 @@
             // 
             // lblShow
             // 
-            this.lblShow.BackColor = System.Drawing.Color.White;
-            this.lblShow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblShow.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblShow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblShow.Font = new System.Drawing.Font("新細明體", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lblShow.Location = new System.Drawing.Point(0, 2);
